@@ -15,3 +15,12 @@ df3 = pd.read_csv('/Users/hartnell/Desktop/nt_parking_spaces_eng.csv')
 combined_df = pd.concat([df, df2, df3])
 display(combined_df)
 combined_df.to_csv('Parking_spaces_sum.csv', index = False)
+
+
+
+df.info()
+
+df.describe()
+
+
+df.isnull().sum()
